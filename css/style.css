@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: #222;
+    font-family: sans-serif;
+}
+
+form {
+    font-size: 16px;
+    margin: auto;
+    color: #ddd;
+    /* background-color: #333; */
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 40px 0 #000;
+    
+}
+.form_input {
+    padding: 10px 10px;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.375em; /* con 16px equvalente a 22px */
+}
+
+input, textarea {
+    color: #ddd;
+    background: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: none;
+    border: 1px solid #555;
+    box-shadow: 0 0 15px 0 #000a;
+}
+
+textarea {
+    font-family: sans-serif;
+    min-width: 100%;
+    /* max-width: 100%; */
+    resize: vertical;
+    max-height: 140px;
+}
